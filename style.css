@@ -1,24 +1,38 @@
+body{
+	background-color: #cdd1fa;
+}
+
+.main_container{
+	width: 40%;
+	margin: 0 auto;
+}
 
 .container {
-	width: 960px;
-	display: grid;
-	grid-template-columns: repeat(16, 20px);
-	grid-template-rows: repeat(16, 20px);
-	grid-gap: 2px 2px; 
-	justify-content: center;
+	width: 500px;
+	height: 500px;
+	display: grid; 
+	margin-top: 5%;
+	border: 2px solid gray;
 }
 
 .gridItem {
-	background-color: gray;
-	width: 100%;
-	padding: 1%;
+	background-color: #000c0f; 
+	border: 1px solid white;
+}
+
+.gridItem:hover{
+	background-color: lightblue;
 }
 
 .resetSketchBoard {
-	background-color: gray;
+	background-color: #000c0f;
 }
 
-.mouseover{
+.mouseover_color{
 	background-color: white;
 }
 
+.btn{
+	padding: 10px 15px;
+	font-weight: bold;
+}
